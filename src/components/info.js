@@ -2,8 +2,8 @@ import React from "react";
 
 const Info = () => (
     <div>
-        <h2>Погодное приложение</h2>
-        <p>Узнайте погоду в вашем городе</p>
+        <h2>Weather application</h2>
+        <p>Find out the weather in your city</p>
     </div>
 );
   

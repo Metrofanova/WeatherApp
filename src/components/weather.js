@@ -11,10 +11,10 @@ const Weather = ({
     <div className='infoWeath'>
         { city &&
             <div>
-                <p>Местоположение: {city}, {country}</p>
-                <p>Температура: {temp}</p>
-                <p>Давление: {pressure}</p>
-                <p>Заход солнца: {sunset}</p>
+                <p>Location: {city}, {country}</p>
+                <p>Temperature: {temp}</p>
+                <p>Pressure: {pressure}</p>
+                <p>Sunset: {sunset}</p>
             </div>
         }
         <p className='error'>{error}</p>
